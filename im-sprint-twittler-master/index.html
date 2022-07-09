@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>twittler</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="data.js"></script>
+</head>
+<body>
+  <!-- 여기에 HTML 구조를 작성하세요. 아래 코드는 예제이며, 얼마든지 바꿀 수 있습니다 -->
+  <div id="greeting">twittler</div>
+
+  <div id="container">
+    <div id="user-info">
+      <div>
+        Username<br>
+        <input type="text">
+      </div>
+      <br>
+      <div>
+        Message<br>
+        <textarea rows="5" cols="50"></textarea>
+      </div>
+      <button>Tweet!</button>
+    </div>
+    <div id="user-tweet">
+      <div id="check-tweet">
+        <button>
+          <img src="refresh.png" width="15px;"> check new tweets
+        </button>
+      </div>
+      <ul id="tweet-contents">
+        <li class="tweet-content">
+          <div class="tweet-user"><span>ingikim</span>
+            <span class="tweet-date">2019-01-04 18:30:20</span>
+          </div>
+          <span class="tweet-msg">education for real world</span>
+        </li>
+        <li class="tweet-content">
+          <div class="tweet-user"><span>stevejobs</span>
+            <span class="tweet-date">2019-01-04 18:30:20</span>
+          </div>
+          <span class="tweet-msg">Stay hungry, and stay foolish</span>
+        </li>
+        <li class="tweet-content">
+          <div class="tweet-user"><span>ingikim</span>
+            <span class="tweet-date">2019-01-04 18:30:20</span>
+          </div>
+          <span class="tweet-msg">code now! #work #hard</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+#greeting {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  color: white;
+  background-color: #eee;
+  text-shadow: 0 0 5px #333;
+  text-align: center;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+#container {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "맑은 고딕";
+}
+#user-info {
+  background-color: skyblue;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#user-info > button {
+  color: black;
+  width: 80px;
+}
+/* 
+#user-tweet {
+
+} */
+#check-tweet {
+  background-color: darkblue;
+  padding: 10px;
+  width: 100%;
+}
+#check-tweet > button {
+  width: 150px;
+  height: 30px;
+}
+#tweet-contents {
+  width: 97.5%;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  background-color: rgba(236, 234, 234, 0.968);
+}
+.tweet-content {
+  margin: 15px;
+  width: 740px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  padding: 5px;
+}
+.tweet-user {
+  
+  font-size: larger;
+  font-weight: bold;
+}
+.tweet-msg {
+  
+  font-size: smaller;
+}
+.tweet-date {
+  font-size: 8px;
+  font-weight: lighter;
+  float: right;
+  text-align: right;
+}
